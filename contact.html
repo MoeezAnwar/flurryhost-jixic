@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
 	<!-- master stylesheet -->
+    <link rel="stylesheet" href="css/all-css-libraries.css">
     <link rel="stylesheet" href="css/style.css">
 	<!-- Responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
@@ -170,207 +171,135 @@
 <!--End Contact Address Area-->  
 
 <!--Start contact form area-->
-<section class="contact-form-area">
-    <div class="container">
-        <div class="row">
-           
-            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
-                <div class="contact-social-links">
-                    <div class="image-box" style="background-image: url(images/resources/contact);">
-                        <div class="big-title">
-                            <div class="inner">
-                                <div class="title">Mail us</div>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="social-links">
-                        <li><a href="#">Facebook</a></li>    
-                        <li><a href="#">Twitter</a></li>    
-                        <li><a href="#">Instagram</a></li>    
-                        <li><a href="#">Linkedin</a></li>      
-                    </ul>
-                </div>     
+<div class="saasbox-contact-us-area">
+    <div class="container">                       
+      <div class="row g-4 justify-content-between">
+        <!-- Contact Side Info-->
+        <div class="col-12 col-lg-5 col-xl-4">
+          <div class="contact-side-info mb-4 mb-md-0">
+            <h1 class="mb-3">Let's talk about <br> all things!</h1>
+            <p class="mb-4">Write to us or give us a call. We will reply to you as soon as possible. But yes, it can take up to 24 hours.</p>
+            <div class="contact-mini-card-wrapper">
+              <!-- Contact Mini Card-->
+              <div class="contact-mini-card">
+                <div class="contact-mini-card-icon"><i class="bi bi-envelope"></i></div>
+                <a href="mailto:hello@flurryhost.de"><p></p><h6>hello@flurryhost.de</h6><p></p></a>
+              </div>
+              <!-- Contact Mini Card-->
+              <div class="contact-mini-card">
+                <div class="contact-mini-card-icon"><i class="bi bi-headphones"></i></div>
+                <p>
+                  +12036643750</p>
+              </div>
+              <!-- Contact Mini Card-->
+              <div class="contact-mini-card">
+                <div class="contact-mini-card-icon"><i class="bi bi-tag"></i></div>
+                <p>We are open from 9am — 5pm business days.</p>
+              </div>
             </div>
-            <div class="col-12 col-lg-7">
-                <title>Contact Form #6</title>
-      <script nonce="074d9ed0-6407-492e-b660-c198e89afe1a">(function(w,d){!function(Z,_,ba,bb){Z.zarazData=Z.zarazData||{};Z.zarazData.executed=[];Z.zaraz={deferred:[],listeners:[]};Z.zaraz.q=[];Z.zaraz._f=function(bc){return function(){var bd=Array.prototype.slice.call(arguments);Z.zaraz.q.push({m:bc,a:bd})}};for(const be of["track","set","debug"])Z.zaraz[be]=Z.zaraz._f(be);Z.zaraz.init=()=>{var bf=_.getElementsByTagName(bb)[0],bg=_.createElement(bb),bh=_.getElementsByTagName("title")[0];bh&&(Z.zarazData.t=_.getElementsByTagName("title")[0].text);Z.zarazData.x=Math.random();Z.zarazData.w=Z.screen.width;Z.zarazData.h=Z.screen.height;Z.zarazData.j=Z.innerHeight;Z.zarazData.e=Z.innerWidth;Z.zarazData.l=Z.location.href;Z.zarazData.r=_.referrer;Z.zarazData.k=Z.screen.colorDepth;Z.zarazData.n=_.characterSet;Z.zarazData.o=(new Date).getTimezoneOffset();Z.zarazData.q=[];for(;Z.zaraz.q.length;){const bl=Z.zaraz.q.shift();Z.zarazData.q.push(bl)}bg.defer=!0;for(const bm of[localStorage,sessionStorage])Object.keys(bm||{}).filter((bo=>bo.startsWith("_zaraz_"))).forEach((bn=>{try{Z.zarazData["z_"+bn.slice(7)]=JSON.parse(bm.getItem(bn))}catch{Z.zarazData["z_"+bn.slice(7)]=bm.getItem(bn)}}));bg.referrerPolicy="origin";bg.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));bf.parentNode.insertBefore(bg,bf)};["complete","interactive"].includes(_.readyState)?zaraz.init():Z.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,0,"script");})(window,document);</script></head>
-     <body>
-                  
-                  <form name="contact" method="POST" data-netlify="true" class="form" > 
-                    <div class="row">
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="name">Full Name:</label>
-                        <input class="form-control mb-30" id="name" type="text" placeholder="John Doe" value="" name="name" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">Company Name:</label>
-                        <input class="form-control mb-30" id="company" type="test" placeholder="Flurryhost de" name="company" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">Phone number:</label>
-                        <input class="form-control mb-30" id="phone number" type="number" placeholder="+12036643750" name="phone number" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">Company Website:</label>
-                        <input class="form-control mb-30" id="company name" type="text" placeholder="https://Flurryhost.de" name="company name" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">Country:</label>
-                        <input class="form-control mb-30" id="country" type="text" placeholder="Pakistan" name="country" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">No of employees:</label>
-                        <input class="form-control mb-30" id="employees" type="text" placeholder="23" name="employees" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="company">Business nature:</label>
-                        <input class="form-control mb-30" id="nature" type="text" placeholder="Marketing agency " name="nature" value="" required>
-                      </div>
-                      <div class="col-12 col-lg-6">
-                        <label class="form-label" for="email">Email Address:</label>
-                        <input class="form-control mb-30" id="email" type="email" placeholder="hello@flurryhost.de" name="email" value="" required>
-                      </div>
-                      <div class="col-12">
-                        <label class="form-label" for="subject">Topics:</label>
-                        
-                        <input class="form-control mb-30" id="topics" type="text" placeholder="Presale Questions" name="topics" value="" required>
-                      </div>
-                      <div class="col-12">
-                       
-                        <label class="form-label" for="message">Message:</label> 
-                        <textarea class="form-control mb-30" id="message" name="message" placeholder="Message" required></textarea>
-                      </div>
-                      <div class="col-12 text-center">
-                        <button class="btn btn-primary w-100" type="submit">Send Now</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                </div>
-            
+          </div>
         </div>
-    </div>
-</section>
-<!--End contact form area-->
-
+           <!-- Contact Form-->
+           <div class="col-12 col-lg-7">
+            <title>Contact Form #6</title>
+  <script nonce="074d9ed0-6407-492e-b660-c198e89afe1a">(function(w,d){!function(Z,_,ba,bb){Z.zarazData=Z.zarazData||{};Z.zarazData.executed=[];Z.zaraz={deferred:[],listeners:[]};Z.zaraz.q=[];Z.zaraz._f=function(bc){return function(){var bd=Array.prototype.slice.call(arguments);Z.zaraz.q.push({m:bc,a:bd})}};for(const be of["track","set","debug"])Z.zaraz[be]=Z.zaraz._f(be);Z.zaraz.init=()=>{var bf=_.getElementsByTagName(bb)[0],bg=_.createElement(bb),bh=_.getElementsByTagName("title")[0];bh&&(Z.zarazData.t=_.getElementsByTagName("title")[0].text);Z.zarazData.x=Math.random();Z.zarazData.w=Z.screen.width;Z.zarazData.h=Z.screen.height;Z.zarazData.j=Z.innerHeight;Z.zarazData.e=Z.innerWidth;Z.zarazData.l=Z.location.href;Z.zarazData.r=_.referrer;Z.zarazData.k=Z.screen.colorDepth;Z.zarazData.n=_.characterSet;Z.zarazData.o=(new Date).getTimezoneOffset();Z.zarazData.q=[];for(;Z.zaraz.q.length;){const bl=Z.zaraz.q.shift();Z.zarazData.q.push(bl)}bg.defer=!0;for(const bm of[localStorage,sessionStorage])Object.keys(bm||{}).filter((bo=>bo.startsWith("_zaraz_"))).forEach((bn=>{try{Z.zarazData["z_"+bn.slice(7)]=JSON.parse(bm.getItem(bn))}catch{Z.zarazData["z_"+bn.slice(7)]=bm.getItem(bn)}}));bg.referrerPolicy="origin";bg.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));bf.parentNode.insertBefore(bg,bf)};["complete","interactive"].includes(_.readyState)?zaraz.init():Z.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,0,"script");})(window,document);</script>
+ 
+              
+              <form class="form" method="POST" name="contact" data-np-autofill-type="identity" data-np-checked="1" data-np-watching="1"><input type="hidden" name="form-name" value="contact"> 
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="name">Full Name:</label>
+                    <input class="form-control mb-30" id="name" type="text" placeholder="John Doe" value="" name="name" required="" data-np-autofill-type="firstName" data-np-uid="6dae1947-9f9d-4318-8434-561d65c195f4">
+                  <span data-np-uid="6dae1947-9f9d-4318-8434-561d65c195f4" style="width: 24px; min-width: 24px; height: 24px; background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;); background-repeat: no-repeat; background-position: left center; background-size: auto; border: none; display: inline-block; visibility: visible; position: absolute; cursor: pointer; z-index: 998; padding: 0px; transition: none 0s ease 0s; pointer-events: all; right: 0px; left: 723.828px; top: 465px; min-height: 24px;"></span></div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">Company Name:</label>
+                    <input class="form-control mb-30" id="company" type="test" placeholder="Flurryhost de" name="company" value="" required="">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">Phone number:</label>
+                    <input class="form-control mb-30" id="phone number" type="number" placeholder="+12036643750" name="phone number" value="" required="" data-np-autofill-type="phone" data-np-uid="f972e54e-aa46-4bfe-9186-dc0862ca1f50">
+                  <span data-np-uid="f972e54e-aa46-4bfe-9186-dc0862ca1f50" style="width: 24px; min-width: 24px; height: 24px; background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;); background-repeat: no-repeat; background-position: left center; background-size: auto; border: none; display: inline-block; visibility: visible; position: absolute; cursor: pointer; z-index: 998; padding: 0px; transition: none 0s ease 0s; pointer-events: all; right: 0px; left: 723.828px; top: 579px; min-height: 24px;"></span></div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">Company Website:</label>
+                    <input class="form-control mb-30" id="company name" type="text" placeholder="https://Flurryhost.de" name="company name" value="" required="">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">Country:</label>
+                    <input class="form-control mb-30" id="country" type="text" placeholder="Pakistan" name="country" value="" required="" data-np-autofill-type="country" data-np-uid="0ab41405-0f12-470c-bee3-39c91e3d6977">
+                  <span data-np-uid="0ab41405-0f12-470c-bee3-39c91e3d6977" style="width: 24px; min-width: 24px; height: 24px; background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;); background-repeat: no-repeat; background-position: left center; background-size: auto; border: none; display: inline-block; visibility: visible; position: absolute; cursor: pointer; z-index: 998; padding: 0px; transition: none 0s ease 0s; pointer-events: all; right: 0px; left: 723.828px; top: 693px; min-height: 24px;"></span></div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">No of employees:</label>
+                    <input class="form-control mb-30" id="employees" type="text" placeholder="23" name="employees" value="" required="">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="company">Business nature:</label>
+                    <input class="form-control mb-30" id="nature" type="text" placeholder="Marketing agency " name="nature" value="" required="">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="email">Email Address:</label>
+                    <input class="form-control mb-30" id="email" type="email" placeholder="hello@flurryhost.de" name="email" value="" required="" data-np-autofill-type="email" data-np-uid="f17b0fcc-90b7-447f-8aaa-b017b88067f8">
+                  <span data-np-uid="f17b0fcc-90b7-447f-8aaa-b017b88067f8" style="width: 24px; min-width: 24px; height: 24px; background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;); background-repeat: no-repeat; background-position: left center; background-size: auto; border: none; display: inline-block; visibility: visible; position: absolute; cursor: pointer; z-index: 998; padding: 0px; transition: none 0s ease 0s; pointer-events: all; right: 0px; left: 997.984px; top: 807px; min-height: 24px;"></span></div>
+                  <div class="col-12">
+                    <label class="form-label" for="subject">Topics:</label>
+                    
+                    <input class="form-control mb-30" id="topics" type="text" placeholder="Presale Questions" name="topics" value="" required="">
+                  </div>
+                  <div class="col-12">
+                   
+                    <label class="form-label" for="message">Message:</label> 
+                    <textarea class="form-control mb-30" id="message" name="message" placeholder="Message" required=""></textarea>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button class="btn btn-primary w-100" type="submit">Send Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
 
 <!--Start footer area-->  
-<footer class="footer-area">
-    <div class="parallax-scene parallax-scene-1">
-        <span data-depth="0.20" class="parallax-layer shape wow zoomInLeft" data-wow-duration="2000ms"></span>
-        <span data-depth="0.10" class="parallax-layer shape2 wow zoomInRight" data-wow-duration="2000ms"></span>
-        <span data-depth="0.20" class="parallax-layer shape3 wow zoomInRight" data-wow-duration="2000ms"></span>
-        <span class="shape4 wow zoomInRight" data-wow-duration="2000ms"></span>
-    </div>
+<footer class="footer-style4-area">
     <div class="container">
         <div class="row">
             <!--Start single footer widget-->
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
-                <div class="single-footer-widget marbtm50">
-                    <div class="footer-logo">
-                        <a href="index"><img src="images/footer/footer-logo.png" alt="Awesome Logo" title="Logo"></a>    
-                    </div>
-                    <div class="footer-company-info-text">
-                        <h3>Newyork</h3>
-                        <ul>
-                            <li>United States of America<br> 54 N. Lakewood Avenue, IL 60640</li>
-                            <li>+321(00)8884455</li>
-                            <li>supportyou@fixic.com</li>
-                        </ul>
-                    </div>  
-                </div>
+                
             </div>
             <!--End single footer widget-->
             <!--Start single footer widget-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
-                <div class="single-footer-widget martop30 marbtm50">
-                    <div class="title">
-                        <h3>Information</h3>
-                    </div>
-                    <ul class="information-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Updates</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>    
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area">
+                  <h5 class="mb-4 text-white">Important Links</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="index" target="_blank"><i class="bi bi-caret-right"></i>Home </a></li>
+            
+                    <li><a href="contact" target="_blank"><i class="bi bi-caret-right"></i>Contact us</a></li>
+                   
+                    
+                  </ul>
                 </div>
-            </div>
-            <!--End single footer widget-->
-            <!--Start single footer widget-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
-                <div class="single-footer-widget martop30 pdbtm50">
-                    <div class="title">
-                        <h3>Main Services</h3>
-                    </div>
-                    <ul class="service-links">
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Photography</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Brand & Identity</a></li>
-                        <li><a href="#">Seo & Marketing</a></li>
-                    </ul>   
+              </div>
+              <!-- Footer Widget Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area">
+                  <h5 class="mb-4 text-white">Our Location</h5>
+                  <p class="lh-base mb-3">Flurryhost de. <br> Islamabad,Pakistan</p>
+                  <p class="mb-0">Call: +12036643750 <br> Email: hello@flurryhost.de</p>
+                  <!-- Footer Social Icon -->
+                  <div class="footer-social-icon d-flex align-items-center mt-3"><a href="#" data-bs-toggle="tooltip"
+                      data-bs-placement="top" title="Facbook"><i class="bi bi-facebook"></i></a><a href="#"
+                      data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="bi bi-twitter"></i></a><a
+                      href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i
+                        class="bi bi-instagram"></i></a><a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Linkedin"><i class="bi bi-linkedin"></i></a><a href="#" data-bs-toggle="tooltip"
+                      data-bs-placement="top" title="Youtube"><i class="bi bi-youtube"></i></a></div>
                 </div>
-            </div>
-            <!--End single footer widget-->
-            <!--Start single footer widget-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
-                <div class="single-footer-widget martop30">
-                    <div class="title">
-                        <h3>Newsletter</h3>
-                    </div>
-                    <div class="subscribe-box">
-                        <div class="text">
-                            <p>Subscribe us and get latest news,<br> updates and tips.</p>
-                        </div>
-                        <form class="subscribe-form" action="#">
-                            <input type="email" name="email" placeholder="Email...">
-                            <button type="submit"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </form>
-                        <div class="footer-social-links">
-                            <ul class="sociallinks-style-two">
-                                <li>
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </li>
-                            </ul>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-            <!--End single footer widget-->
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <div class="footer-bottom-content">
-                        <div class="copyright-text">
-                            <p>Copyright © <a href="#">Fixic Creative Agency</a> All Rights Reserved.</p>
-                        </div>
-                        <div class="footer-menu-style1">
-                            <ul>
-                                <li><a href="#">Terms of use</a></li>
-                                <li><a href="#">Privacy Environmental Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    </div>
+              </div>
 </footer>   
 <!--End footer area-->
 
